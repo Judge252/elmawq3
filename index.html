@@ -12,7 +12,535 @@
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     
     <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="أفضل عيادة علاج طبيعي وتأهيل في المنطقة - نقدم أحدث تقنيات العلاج الطبيعي وإعادة التأهيل">
+    <title>عيادة العلاج الطبيعي والتأهيل</title>
+    
+    <!-- Google Font Tajawal -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <img src="logo.png" alt="عيادة العلاج الطبيعي" class="logo-img">
+                    </div>
+                    
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="#home" class="nav-link">الرئيسية</a></li>
+                        <li><a href="#services" class="nav-link">خدماتنا</a></li>
+                        <li><a href="#treatments" class="nav-link">العلاجات</a></li>
+                        <li><a href="#branches" class="nav-link">الفروع</a></li>
+                        <li><a href="#booking" class="nav-link">احجز موعد</a></li>
+                        <li><a href="#contact" class="nav-link">تواصل معنا</a></li>
+                    </ul>
+                    
+                    <div class="nav-actions">
+                        <a href="https://wa.me/972526020026" class="whatsapp-btn" target="_blank" aria-label="واتساب">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <button class="hamburger" id="hamburger" aria-label="القائمة">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-card">
+                <div class="hero-media">
+                    <div class="hero-slider" aria-hidden="true">
+                        <img src="hero.jpeg" alt="" loading="lazy">
+                        <img src="hero 2.jpg" alt="" loading="lazy">
+                        <img src="hero 3.jpg" alt="" loading="lazy">
+                    </div>
+                </div>
+                <div class="hero-content">
+                    <h1 class="hero-title">العياده مركز طبي مختص في العلاج الطبيعي واعادة التاهيل لمساعدتكم على استعادة صحتكم وحركتكم</h1>
+                    <div class="hero-buttons">
+                        <a href="#booking" class="btn btn-primary">احجز موعد الآن</a>
+                        <a href="#services" class="btn btn-secondary">استعرض خدماتنا</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <h2 class="section-title">المعالجين</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <img src="سالم محيلية.jpg" alt="سالم محيلية" loading="lazy">
+                    </div>
+                    <h3 class="team-name">سالم محيلية</h3>
+                    <p class="team-role">أخصائي علاج طبيعي</p>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <img src="بشارة.jpeg" alt="بشاره علي" loading="lazy">
+                    </div>
+                    <h3 class="team-name">بشاره علي</h3>
+                    <p class="team-role">أخصائي علاج طبيعي</p>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <img src="ماريان.jpeg" alt="ماريان" loading="lazy">
+                    </div>
+                    <h3 class="team-name">ماريان</h3>
+                    <p class="team-role">أخصائي علاج طبيعي</p>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <img src="يوسف خالد.jpg" alt="يوسف خالد" loading="lazy">
+                    </div>
+                    <h3 class="team-name">يوسف خالد</h3>
+                    <p class="team-role">أخصائي علاج طبيعي</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">خدماتنا</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="حجامة جافة.jpg" alt="حجامة جافة" loading="lazy">
+                    </div>
+                    <h3 class="service-title">حجامة جافة</h3>
+                    <p class="service-description">تقنية علاجية تقليدية تستخدم الكؤوس لتحسين الدورة الدموية وتقليل الألم.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="حجامة رطبة.avif" alt="حجامة رطبة" loading="lazy">
+                    </div>
+                    <h3 class="service-title">حجامة رطبة</h3>
+                    <p class="service-description">علاج تقليدي فعال يساعد في تخفيف الألم وتحسين الصحة العامة.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="مساج.jpg" alt="مساج طبي" loading="lazy">
+                    </div>
+                    <h3 class="service-title">مساج طبي</h3>
+                    <p class="service-description">علاج يدوي متخصص لتخفيف التوتر العضلي وتحسين المرونة.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="مساج للرياضين.jpg" alt="مساج طبي للرياضيين" loading="lazy">
+                    </div>
+                    <h3 class="service-title">مساج طبي للرياضيين</h3>
+                    <p class="service-description">علاج متخصص للرياضيين لتحسين الأداء وتسريع التعافي من الإصابات.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="علاج بالابر.jpg" alt="العلاج بالإبر الجافة" loading="lazy">
+                    </div>
+                    <h3 class="service-title">العلاج بالإبر الجافة</h3>
+                    <p class="service-description">تقنية حديثة لعلاج نقاط الزناد العضلية وتخفيف الألم المزمن.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Treatments Section -->
+    <section class="treatments" id="treatments">
+        <div class="container">
+            <h2 class="section-title">العلاجات التي نقدمها</h2>
+            <div class="treatments-grid">
+                <div class="treatment-card">
+                    <div class="treatment-image">
+                        <img src="https://via.placeholder.com/600x400.png?text=%D8%B9%D9%84%D8%A7%D8%AC" alt="مشاكل العمود الفقري" loading="lazy">
+                    </div>
+                    <h3 class="treatment-title">مشاكل العمود الفقري</h3>
+                    <p class="treatment-description">علاج شامل لآلام الظهر والرقبة ومشاكل العمود الفقري المختلفة.</p>
+                </div>
+                
+                <div class="treatment-card">
+                    <div class="treatment-image">
+                        <img src="https://via.placeholder.com/600x400.png?text=%D8%B9%D9%84%D8%A7%D8%AC" alt="علاج مشاكل المفاصل" loading="lazy">
+                    </div>
+                    <h3 class="treatment-title">علاج مشاكل المفاصل</h3>
+                    <p class="treatment-description">علاج فعال لالتهابات المفاصل وآلام الركبة والكتف.</p>
+                </div>
+                
+                <div class="treatment-card">
+                    <div class="treatment-image">
+                        <img src="https://via.placeholder.com/600x400.png?text=%D8%AA%D8%A3%D9%87%D9%8A%D9%84" alt="إعادة التأهيل بعد العمليات والإصابات" loading="lazy">
+                    </div>
+                    <h3 class="treatment-title">إعادة التأهيل بعد العمليات والإصابات</h3>
+                    <p class="treatment-description">برامج تأهيلية متخصصة للتعافي السريع بعد الجراحات والإصابات.</p>
+                </div>
+                
+                <div class="treatment-card">
+                    <div class="treatment-image">
+                        <img src="https://via.placeholder.com/600x400.png?text=%D8%AA%D9%88%D8%A7%D8%B2%D9%86" alt="علاج مشاكل الدوخة" loading="lazy">
+                    </div>
+                    <h3 class="treatment-title">علاج مشاكل الدوخة</h3>
+                    <p class="treatment-description">علاج متخصص لمشاكل التوازن والدوخة باستخدام تقنيات حديثة.</p>
+                </div>
+                
+                <div class="treatment-card">
+                    <div class="treatment-image">
+                        <img src="https://via.placeholder.com/600x400.png?text=%D8%B9%D8%B5%D8%A8%D9%8A" alt="علاج مشاكل الجهاز العصبي" loading="lazy">
+                    </div>
+                    <h3 class="treatment-title">علاج مشاكل الجهاز العصبي</h3>
+                    <p class="treatment-description">علاج شامل لمشاكل الجهاز العصبي وإعادة تأهيل الوظائف العصبية.</p>
+                </div>
+                
+                <div class="treatment-card">
+                    <div class="treatment-image">
+                        <img src="https://via.placeholder.com/600x400.png?text=%D9%81%D9%83" alt="علاج مشاكل الفك" loading="lazy">
+                    </div>
+                    <h3 class="treatment-title">علاج مشاكل الفك</h3>
+                    <p class="treatment-description">علاج متخصص لآلام الفك ومشاكل المفصل الصدغي الفكي.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="container">
+            <h2 class="section-title">لماذا تختارنا</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3 class="feature-title">خبرة طبية متخصصة</h3>
+                    <p class="feature-description">فريق من الأطباء والمعالجين ذوي الخبرة الواسعة في العلاج الطبيعي.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3 class="feature-title">علاج شخصي لكل مريض</h3>
+                    <p class="feature-description">نصمم خطة علاج مخصصة لكل مريض حسب احتياجاته الفردية.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3 class="feature-title">تقنيات حديثة</h3>
+                    <p class="feature-description">نستخدم أحدث المعدات والتقنيات في مجال العلاج الطبيعي.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3 class="feature-title">نتائج فعالة</h3>
+                    <p class="feature-description">نسبة نجاح عالية في علاج المرضى وتحسين حالتهم الصحية.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Booking Section -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <h2 class="section-title">احجز موعد</h2>
+            <div class="booking-grid" id="branches">
+                <!-- Branch 1: طرعان -->
+                <div class="booking-card">
+                    <div class="branch-header">
+                        <h3 class="branch-name">فرع طرعان</h3>
+                        <div class="branch-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                    </div>
+                    <div class="branch-info">
+                        <p class="branch-address">
+                            <i class="fas fa-location-dot"></i>
+                            طرعان - شارع ابو بكر 13
+                        </p>
+                        <div class="branch-hours">
+                            <p><strong>ساعات العمل:</strong></p>
+                            <p>الأحد - الخميس: 8:00 - 20:00</p>
+                            <p>الجمعة: 8:00 - 14:00</p>
+                        </div>
+                        <p class="branch-whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/972526020026" target="_blank">972526020026</a>
+                        </p>
+                    </div>
+                    <div class="booking-form">
+                        <label for="date1" class="date-label">اختر التاريخ:</label>
+                        <input type="date" id="date1" class="date-input" min="">
+                        <button class="btn btn-primary btn-book" onclick="bookAppointment('طرعان', '972526020026', 'date1')">
+                            <i class="fab fa-whatsapp"></i>
+                            احجز عبر واتساب
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Branch 2: اللد والرملة -->
+                <div class="booking-card">
+                    <div class="branch-header">
+                        <h3 class="branch-name">فرع اللد والرملة</h3>
+                        <div class="branch-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                    </div>
+                    <div class="branch-info">
+                        <p class="branch-address">
+                            <i class="fas fa-location-dot"></i>
+                            الرملة - شارع Dr Salk 25
+                        </p>
+                        <div class="branch-hours">
+                            <p><strong>ساعات العمل:</strong></p>
+                            <p>الأحد - الخميس: 9:00 - 21:00</p>
+                            <p>الجمعة: 9:00 - 15:00</p>
+                        </div>
+                        <p class="branch-whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/972522950996" target="_blank">972522950996</a>
+                        </p>
+                    </div>
+                    <div class="booking-form">
+                        <label for="date2" class="date-label">اختر التاريخ:</label>
+                        <input type="date" id="date2" class="date-input" min="">
+                        <button class="btn btn-primary btn-book" onclick="bookAppointment('اللد والرملة', '972522950996', 'date2')">
+                            <i class="fab fa-whatsapp"></i>
+                            احجز عبر واتساب
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">آراء عملائنا</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-image">
+                        <img src="https://via.placeholder.com/100x100/4A90E2/FFFFFF?text=م" alt="عميل" loading="lazy">
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">تجربة رائعة، تحسن ألم الظهر لدي بشكل كبير بعد عدة جلسات. الفريق محترف جداً والخدمة ممتازة.</p>
+                    <p class="testimonial-author">- محمد أحمد</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-image">
+                        <img src="https://via.placeholder.com/100x100/5CB85C/FFFFFF?text=س" alt="عميلة" loading="lazy">
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">علاج ممتاز لمشاكل الركبة. المعالجون متخصصون والنتائج واضحة من الجلسات الأولى.</p>
+                    <p class="testimonial-author">- سارة محمود</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-image">
+                        <img src="https://via.placeholder.com/100x100/4A90E2/FFFFFF?text=ع" alt="عميل" loading="lazy">
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">أفضل عيادة علاج طبيعي. ساعدوني في التعافي بعد العملية بسرعة وفعالية. أنصح بها بشدة.</p>
+                    <p class="testimonial-author">- علي حسن</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">تواصل معنا</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>الهاتف</h3>
+                            <p>
+                                <a href="tel:972526020026">972526020026</a>
+                            </p>
+                            <p>
+                                <a href="tel:972522950996">972522950996</a>
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>واتساب</h3>
+                            <p>
+                                <a href="https://wa.me/972526020026" target="_blank" class="whatsapp-link">
+                                    <i class="fab fa-whatsapp"></i> فرع طرعان
+                                </a>
+                            </p>
+                            <p>
+                                <a href="https://wa.me/972522950996" target="_blank" class="whatsapp-link">
+                                    <i class="fab fa-whatsapp"></i> فرع اللد والرملة
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>الفروع</h3>
+                            <p>طرعان - شارع ابو بكر 13</p>
+                            <p>الرملة - شارع Dr Salk 25</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">الاسم</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">رقم الهاتف</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">الرسالة</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fab fa-whatsapp"></i>
+                        إرسال عبر واتساب
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="عيادة العلاج الطبيعي" class="logo-img">
+                    </div>
+                    <p class="footer-description">نقدم أفضل خدمات العلاج الطبيعي والتأهيل بأحدث التقنيات.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">روابط سريعة</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#services">خدماتنا</a></li>
+                        <li><a href="#treatments">العلاجات</a></li>
+                        <li><a href="#booking">احجز موعد</a></li>
+                        <li><a href="#contact">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">الفروع</h3>
+                    <div class="footer-branches">
+                        <p>
+                            <strong>فرع طرعان</strong><br>
+                            طرعان - شارع ابو بكر 13<br>
+                            <a href="https://wa.me/972526020026" target="_blank" class="footer-whatsapp">
+                                <i class="fab fa-whatsapp"></i> 972526020026
+                            </a>
+                        </p>
+                        <p>
+                            <strong>فرع اللد والرملة</strong><br>
+                            الرملة - شارع Dr Salk 25<br>
+                            <a href="https://wa.me/972522950996" target="_blank" class="footer-whatsapp">
+                                <i class="fab fa-whatsapp"></i> 972522950996
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">تابعنا</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link" target="_blank" aria-label="فيسبوك">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" target="_blank" aria-label="إنستغرام">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/972526020026" class="social-link" target="_blank" aria-label="واتساب">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 عيادة العلاج الطبيعي والتأهيل. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+awesome/6.4.0/css/all.min.css">
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
